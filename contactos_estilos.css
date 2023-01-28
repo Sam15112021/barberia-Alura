@@ -1,0 +1,187 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-color: orange;
+}
+
+.caja-encabezado{
+    width: 1100px;
+    position: relative;
+    margin: 0 auto;
+}
+
+h1 img{
+    width: 50px;
+}
+
+nav{
+    position: absolute;
+    top: 25px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    color: white;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.caja-del-form{
+    margin: 40px 0;
+}
+
+label, legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 5px;
+}
+
+.inputs-de-texto,textarea{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 15px;
+    width: 50%;
+}
+
+#radio{
+    accent-color: orange;
+}
+
+.checkbox{
+    margin: 20px 0;
+    accent-color: orange;
+}
+
+.enviar{
+    width: 40%;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background: orange;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: darkorange;
+    transform: scale(1.1);
+}
+
+table{
+    margin: 40px 40px;
+}
+
+thead{
+    background: #555555;
+    color: white;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 8px 20px;
+}
+
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 20px;
+    box-shadow: inset 0 0 30px 25px #000000;
+}
+
+.copyright{
+    font-size: 13px;
+    color: white;
+    margin: 10px;
+}
+
+@media screen and (max-width: 480px){
+    .caja-encabezado{
+        text-align: center;
+        padding: 0 0 20px;
+    }
+
+    .caja-encabezado{
+        width: auto;
+    }
+
+    h1 img{
+        width: auto;
+    }
+
+    nav {
+        position: static;
+    }
+
+    nav li{
+        margin: 0 10px;
+    }
+
+    nav a{
+        font-size: 18px;
+    }
+
+    main{
+        width: auto;
+    }
+
+    .caja-del-form{
+        margin: 20px 60px;
+    }
+
+    label{
+        font-size: 14px;
+    }
+
+    legend{
+        font-size: 15px;
+    }
+
+
+    .inputs-de-texto{
+        width: 84%;
+    }
+
+    textarea{
+        width: 83%;
+        margin: 0 0 20px;
+    }
+
+    .horario{
+        margin: 10px 0 0;
+    }
+
+    select{
+        padding: 0 1px 0 0;
+    }
+
+    .enviar{
+        width: auto;
+        padding: 10px 20px;
+        margin: 20px 0 0 35px;
+    }
+
+    table{
+        margin: 40px 0 40px 70px;
+    }
+}
